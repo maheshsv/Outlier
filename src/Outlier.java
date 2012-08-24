@@ -3,7 +3,9 @@ import java.util.*;
 import static java.lang.Math.sqrt;
 
 /**
- * Created with IntelliJ IDEA.
+ * This class computes the outliers of a list of doubles
+ * by selecting those within 2*sigma range from the mean.
+ * Sigma is the standard deviation.
  * User: renero
  */
 public class Outlier {
