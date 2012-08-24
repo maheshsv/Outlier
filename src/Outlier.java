@@ -11,6 +11,9 @@ public class Outlier {
     ArrayList<Double> data;
     Double mean;
 
+    /*
+     * Constructor: an array of doubles is passed.
+     */
     public Outlier(ArrayList<Double> input) {
         data = new ArrayList<Double>(input);
         this.mean = null;
